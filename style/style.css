@@ -1,0 +1,24 @@
+.carousel-caption {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.text-discover {
+    color: #777777;
+}
+
+.btn.btn-outline-primary.bg-white:hover {
+    color: #0d6efd;
+}
+
+@media screen and (max-width:991px) {
+    .read-button.d-flex.justify-content-end {
+        justify-content: initial;
+        display: flex;
+    }
+
+    .ready-to-content {
+        text-align: center;
+    }
+}
