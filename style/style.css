@@ -1,7 +1,9 @@
 .carousel-caption {
     top: 0;
     bottom: 0;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text-discover {
@@ -13,12 +15,15 @@
 }
 
 @media screen and (max-width:991px) {
-    .read-button.d-flex.justify-content-end {
-        justify-content: initial;
-        display: flex;
-    }
-
     .ready-to-content {
         text-align: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+
+    .carousel-caption h1 {
+        font-size: 20px;
     }
 }
